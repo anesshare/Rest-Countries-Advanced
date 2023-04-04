@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{width: 220px;
+height: 200px;
+background-color: darkslategray;
+margin: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+-webkit-box-shadow: 1px -3px 5px 9px rgba(247,247,247,1);
+-moz-box-shadow: 1px -3px 5px 9px rgba(247,247,247,1);
+box-shadow: 1px -3px 5px 9px rgba(247,247,247,1);
+margin-top: 50px;
+
+}
+.glavni{
+    background-color: lightskyblue;
+    width: 100%;
+    min-height: 100vh;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.slika{
+    width: 50px;
+    height: 30px;
+}
+.mali{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+
+}
+.mali input{margin-left: 10px;}
+.card:hover{
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+.glavni::after{
+    height: 100vh;
+}

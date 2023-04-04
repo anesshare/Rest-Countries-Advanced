@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-color: lightskyblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card1{
+    width: 50%;
+    height: 60%;
+    background-color:darkblue;
+    color: white;
+    
+}
+.prikaz{
+    background-color: darkslategray;
+    width: 30%;
+    height:55%;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+-webkit-box-shadow: 1px -3px 5px 9px rgba(247,247,247,1);
+-moz-box-shadow: 1px -3px 5px 9px rgba(247,247,247,1);
+box-shadow: 1px -3px 5px 9px rgba(247,247,247,1);
+margin-top: 50px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(205, 82, 82);
+    color: white;
+    margin-top: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: brown;
+}
